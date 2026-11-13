@@ -1,0 +1,7 @@
+name: Hello Serverless
+on: push
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "This function ran on GitHub's servers, not on my VM"
